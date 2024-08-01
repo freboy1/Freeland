@@ -5,3 +5,27 @@ body {
 .header {
     background: #181818;
 }
+
+.header__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+
+.header__nav{
+    margin-left: 120px;
+    margin-right: 149px;
+}
+
+.header__nav a {
+    font-family: RobotoM, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-right: 31px;
+}
+
+.header__nav a:hover {
+    color: gray;
+}
