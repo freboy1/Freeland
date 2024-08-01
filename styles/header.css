@@ -29,3 +29,32 @@ body {
 .header__nav a:hover {
     color: gray;
 }
+
+.header__texts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 35px;
+}
+
+.header__texts-subtitle,
+.header__texts-title {
+    width: 45%;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+
+.header__texts-title {
+    font-size: 80px;
+    font-family: RobotoM, sans-serif;
+}
+
+.header__texts-subtitle {
+    margin-top: 17px;
+    font-size: 20px;
+    font-family: RobotoL, sans-serif;
+}
