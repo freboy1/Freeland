@@ -69,3 +69,9 @@ body {
 .header__first-button {
     margin-right: 35px;
 }
+
+.header__image {
+    margin-top: 35px;
+    justify-content: center;
+    display: flex;
+}
