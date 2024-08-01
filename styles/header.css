@@ -58,3 +58,14 @@ body {
     font-size: 20px;
     font-family: RobotoL, sans-serif;
 }
+
+
+.header__buttons {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__first-button {
+    margin-right: 35px;
+}
