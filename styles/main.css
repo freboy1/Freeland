@@ -1,3 +1,5 @@
+.main__gallery,
+.main__partners,
 .main__features,
 .main__content {
     color: white;
@@ -95,4 +97,30 @@
 }
 .first__card {
     margin-right: 33px;
+}
+
+.galllery__second__row,
+.galllery__first__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.gallery__section img {
+    margin-right: 33px;
+    border-radius: 12px;
+}
+.galllery__second__row {
+    margin-bottom: 44px;
+}
+
+.partners__images {
+    margin-left: 74px;
+}
+
+.partners__images img {
+    margin-right: 74px;
+    margin-bottom: 54px;
+    margin-top: 54px;
 }
