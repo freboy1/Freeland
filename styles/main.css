@@ -1,6 +1,7 @@
 .main__gallery,
 .main__partners,
 .main__features,
+.main__testimonials,
 .main__content {
     color: white;
     display: flex;
@@ -123,4 +124,45 @@
     margin-right: 74px;
     margin-bottom: 54px;
     margin-top: 54px;
+}
+
+.testimonials {
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.testimonial {
+    margin-bottom: 20px;
+    margin-right: 23px;
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 40px;
+    width: 430px;
+}
+
+.testimonial__title {
+    display: flex;
+}
+
+.testimonial__title img {
+    margin-right: 23px;
+}
+
+.testimonial__name,
+.testimonial__job {
+    font-family: RobotoM, sans-serif;
+}
+.testimonial__name {
+    margin-bottom: 6px;
+}
+
+.testimonial__title {
+    margin-bottom: 30px;
+}
+.testimonial__content {
+    font-family: RobotoL;
 }
